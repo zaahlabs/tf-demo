@@ -10,5 +10,5 @@ variable "cidr_blocks" {
 variable "keypair" {
   type        = string
   description = "keypair for instances"
-  default     = ""
+  default     = "kp-01"
 }
